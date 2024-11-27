@@ -12,6 +12,7 @@ def quitter_fen():
             fen.quit()
 def home(fen):
     global sta,about,typ
+    
     higf=open("c:/sab1-0-2/scores/sab francais hight score.txt","a")
     higf.write("")
     higf.close()
@@ -22,7 +23,7 @@ def home(fen):
     higa.write("")
     higa.close()
     higt=open("c:/sab1-0-2/scores/test hight score.txt","a")
-    higt.write("")score.txt","r")
+    higt.write("")
     higt.close()
     record=open("c:/sab1-0-2/scores/record.txt","a")
     record.write("")
@@ -125,7 +126,7 @@ def home(fen):
             ## On restart
             star()
     def rece():
-        higf=open("c:/sab1-0-2/scores/sab francais hight 
+        higf=open("c:/sab1-0-2/scores/sab francais hight score.txt","r") 
         f=higf.read()
         higf.close()
         higs=open("c:/sab1-0-2/scores/sab standar hight score.txt","r")
